@@ -1,0 +1,199 @@
+/* line 5, style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 10, style.scss */
+body {
+  background-color: #fff;
+  font: 12px 'Lato', sans-serif; }
+
+/* line 16, style.scss */
+.cabecalho {
+  height: 154px;
+  display: block; }
+  /* line 23, style.scss */
+  .cabecalho .cabecalho_garantias ul {
+    background-color: #041E50;
+    display: flex;
+    height: 37px;
+    align-items: center;
+    margin: 0;
+    padding: 0; }
+    /* line 31, style.scss */
+    .cabecalho .cabecalho_garantias ul li {
+      display: flex;
+      margin-right: 100px;
+      text-indent: 140px;
+      margin: 0;
+      color: #fff;
+      font-weight: bold; }
+  /* line 43, style.scss */
+  .cabecalho .cabecalho_info {
+    color: #041E50;
+    font-weight: bold;
+    display: flex;
+    height: 75px;
+    margin: 0;
+    padding: 0; }
+    /* line 51, style.scss */
+    .cabecalho .cabecalho_info .titulo {
+      font-family: 'Sedgwick Ave Display', cursive;
+      font-size: 36px;
+      color: #041E50;
+      display: block;
+      text-indent: 140px;
+      margin: 20px;
+      padding: 0; }
+    /* line 61, style.scss */
+    .cabecalho .cabecalho_info .box_pesquisa {
+      display: flex;
+      height: 41px;
+      width: 340px;
+      margin: 20px 20px; }
+    /* line 68, style.scss */
+    .cabecalho .cabecalho_info a {
+      display: block;
+      width: 18px;
+      height: 18px;
+      text-indent: -9999px;
+      background-image: url(../../images/lupa_small.png);
+      margin: 30px -50px; }
+    /* line 79, style.scss */
+    .cabecalho .cabecalho_info .usuario_contato img {
+      width: 32px;
+      height: 32px;
+      margin: 25px 120px; }
+    /* line 85, style.scss */
+    .cabecalho .cabecalho_info .usuario_contato p {
+      display: flex;
+      margin: -52px 160px;
+      font-size: 14px; }
+  /* line 93, style.scss */
+  .cabecalho hr {
+    margin: 0;
+    padding: 0; }
+  /* line 98, style.scss */
+  .cabecalho .cabecalho_nav {
+    color: #041E50;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 48.5px;
+    text-align: center; }
+    /* line 108, style.scss */
+    .cabecalho .cabecalho_nav .navegacao ul {
+      display: block;
+      margin: 0;
+      padding: 0; }
+      /* line 113, style.scss */
+      .cabecalho .cabecalho_nav .navegacao ul li {
+        display: inline-flex;
+        margin: 18px; }
+
+/* line 132, style.scss */
+.container_principal .banner .slider div img {
+  width: 100%;
+  height: 533px; }
+
+/* line 143, style.scss */
+.instrumentos {
+  height: 225px;
+  text-align: center;
+  margin: 0 50px; }
+  /* line 149, style.scss */
+  .instrumentos ul {
+    height: 182.47px;
+    color: #041E50;
+    font-size: 16px;
+    list-style: none;
+    display: inline-flex;
+    margin: 0; }
+    /* line 157, style.scss */
+    .instrumentos ul li {
+      opacity: 0.5;
+      margin: 50px 20px;
+      -webkit-transition: 0.4s ease-out;
+      -moz-transition: 0.4s ease-out;
+      -o-transition: 0.4s ease-out;
+      transition: 0.4s ease-out; }
+
+/* line 171, style.scss */
+.instrumentos li:hover {
+  opacity: 1.0;
+  -webkit-transition: 0.4s ease-out;
+  -moz-transition: 0.4s ease-out;
+  -o-transition: 0.4s ease-out;
+  transition: 0.4s ease-out; }
+
+/* line 179, style.scss */
+.instrumentos p {
+  margin: 20px; }
+
+/* line 184, style.scss */
+.banner_esquerda {
+  display: flex; }
+
+/* line 188, style.scss */
+.novidades {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  position: absolute; }
+
+/* line 198, style.scss */
+.conteudo_novidades {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  position: absolute; }
+
+/* line 208, style.scss */
+.titulo_novidades {
+  position: absolute;
+  margin: 150px 0 0 235px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-align: center;
+  justify-content: center;
+  color: #fff; }
+
+/* line 219, style.scss */
+.audio_novidades {
+  position: absolute;
+  margin: 15%;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  justify-content: center;
+  color: #fff; }
+
+/* line 230, style.scss */
+.banner_direita {
+  display: inline-flex;
+  width: 100%;
+  height: auto; }
+
+/* line 236, style.scss */
+.produtos {
+  display: flex;
+  width: 100%;
+  height: auto; }
+
+/* line 242, style.scss */
+.div_produtos {
+  text-align: center; }
+
+/* line 246, style.scss */
+.div_produtos h2 {
+  margin: 50% 250%; }
+
+/*# sourceMappingURL=style.css.map */

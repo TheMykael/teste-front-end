@@ -1,0 +1,249 @@
+// Declarando variáveis
+	$azul: #041E50;
+	$branco: #fff;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: $branco;
+	font: 12px 'Lato', sans-serif;
+}
+
+//Cabeçalho das garantias e facilidades
+.cabecalho{
+	height: 154px;
+	display: block;
+
+	.cabecalho_garantias{
+
+
+		ul{
+		background-color: $azul;
+		display: flex;
+		height: 37px;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+
+			li{
+			display: flex;
+			margin-right: 100px;
+			text-indent: 140px;
+			margin: 0;
+			color: $branco;
+			font-weight: bold;
+			}
+		}
+	}
+
+	//Cabeçalho da barra de pesquisa
+	.cabecalho_info{
+	color: $azul;
+	font-weight: bold;
+	display: flex;
+	height: 75px;
+	margin: 0;
+	padding: 0;
+
+		.titulo{
+			font-family: 'Sedgwick Ave Display', cursive;
+			font-size: 36px;
+			color: $azul;
+			display: block;
+			text-indent: 140px;
+			margin: 20px;
+			padding: 0;
+		}
+
+		.box_pesquisa{
+			display: flex;
+			height: 41px;
+			width: 340px;
+			margin: 20px 20px;
+		}
+
+		a{
+			display: block;
+			width: 18px;
+			height: 18px;
+			text-indent: -9999px;
+			background-image: url(../../images/lupa_small.png);
+			margin: 30px -50px;
+		}
+
+		.usuario_contato{
+
+			img{
+				width: 32px;
+				height: 32px;
+				margin: 25px 120px;
+			}
+
+			p{
+				display: flex;
+				margin: -52px 160px;
+				font-size: 14px;
+			}
+		}
+	}
+
+	hr{
+		margin: 0;
+		padding: 0;
+	}
+
+	.cabecalho_nav{
+		color: $azul;
+		margin: 0;
+		padding: 0;
+		display: block;
+		height: 48.5px;
+		text-align: center;
+
+		.navegacao{
+
+			ul{
+			display: block;
+			margin: 0;
+			padding: 0;
+
+				li{
+				display: inline-flex;
+				margin: 18px;
+				}
+			}
+		}
+	}
+}
+
+
+// Tag Main, conteúdo principal
+.container_principal{
+
+	.banner{
+
+		.slider{
+
+			div{
+
+				img{
+				width: 100%;
+				height: 533px;
+				}
+			}
+		}
+	}
+}
+
+
+//Instrumentos hover
+.instrumentos{
+	height: 225px;
+	text-align: center;
+	margin: 0 50px;
+
+
+	ul{
+	height: 182.47px;
+	color: $azul;
+	font-size: 16px;
+	list-style: none;
+	display: inline-flex;
+	margin: 0;
+
+		li{
+		opacity: 0.5;
+		margin: 50px 20px;
+		-webkit-transition: 0.4s ease-out;
+		-moz-transition: 0.4s ease-out;
+		-o-transition: 0.4s ease-out;
+		transition: 0.4s ease-out;
+		}
+	}
+}
+
+
+
+
+.instrumentos li:hover{
+	opacity: 1.0;
+	-webkit-transition: 0.4s ease-out;
+	-moz-transition: 0.4s ease-out;
+	-o-transition: 0.4s ease-out;
+	transition: 0.4s ease-out;
+}
+
+.instrumentos p{
+	margin: 20px;
+}
+
+
+.banner_esquerda{
+	display: flex;
+}
+
+.novidades{
+	width: 100%;
+	height: auto;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	position: absolute;
+}
+
+.conteudo_novidades{
+	width: 100%;
+	height: auto;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	position: absolute;
+}
+
+.titulo_novidades{
+	position: absolute;
+	margin: 150px 0 0 235px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-align: center;
+    justify-content: center;
+    color: $branco;
+}
+
+.audio_novidades{
+	position: absolute;
+	margin: 15%;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
+    justify-content: center;
+    color: $branco;
+}
+
+.banner_direita{
+	display: inline-flex;
+	width: 100%;
+	height: auto;
+}
+
+.produtos{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.div_produtos{
+	text-align: center;
+}
+
+.div_produtos h2{
+	margin: 50% 250%;
+
+}

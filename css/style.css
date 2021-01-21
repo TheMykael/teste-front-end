@@ -161,25 +161,21 @@ hr{
     align-items: center;
     align-content: center;
     justify-content: center;
+    margin: 0;
+    font-family: 'Lato',sans-serif;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 .banner_meio{
 	margin: 0;
-	width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.instrumentos p{
-	margin: 20px;
-}
-
-.banner_esquerda{
-	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+	box-sizing: inherit;
 	width: 100%;
     height: auto;
     display: flex;
@@ -190,46 +186,47 @@ hr{
     position: relative;
 }
 
-.novidades{
+.reset_banner{
 	width: 100%;
-	height: auto;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	display: flex;
-	position: absolute;
+    height: auto;
 }
 
-.conteudo_novidades{
+.banner_esquerda{
 	width: 100%;
-	height: auto;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	display: flex;
-	position: absolute;
+    height: auto;
 }
 
 .titulo_novidades{
 	position: absolute;
-	margin: 150px 0 0 235px;
-    font-size: 14px;
+    top: 38%;
+    font-family: Lato;
     font-weight: 300;
-    letter-spacing: 0.2em;
+    font-size: 14px;
+    letter-spacing: 0.3em;
     text-align: center;
-    justify-content: center;
-    color: var(--branco);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner_divisor{
+	position: absolute;
+    top: 45%;
+    width: 19px;
+    height: 0px;
+    background: transparent;
+    border: 1px solid #fff;
 }
 
 .audio_novidades{
 	position: absolute;
-	margin: 15%;
-    font-size: 45px;
+    top: 50%;
+    font-family: Lato;
     font-weight: bold;
+    font-size: 45px;
     letter-spacing: 0.2em;
     text-align: center;
-    justify-content: center;
-    color: var(--branco);
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .banner_direita{
@@ -237,6 +234,8 @@ hr{
 	width: 100%;
 	height: auto;
 }
+
+/* Inicio da vitrine */
 
 .produtos{
 	display: flex;

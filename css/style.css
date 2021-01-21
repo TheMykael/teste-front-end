@@ -198,7 +198,7 @@ hr{
 
 .titulo_novidades{
 	position: absolute;
-    top: 38%;
+    top: 28%;
     font-family: Lato;
     font-weight: 300;
     font-size: 14px;
@@ -210,7 +210,7 @@ hr{
 
 .banner_divisor{
 	position: absolute;
-    top: 45%;
+    top: 35%;
     width: 19px;
     height: 0px;
     background: transparent;
@@ -219,7 +219,7 @@ hr{
 
 .audio_novidades{
 	position: absolute;
-    top: 50%;
+    top: 40%;
     font-family: Lato;
     font-weight: bold;
     font-size: 45px;
@@ -227,6 +227,38 @@ hr{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+}
+
+.audio_linha2{
+	position: absolute;
+    top: 55%;
+    font-family: Lato;
+    font-weight: lighter;
+    font-size: 45px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: var(--branco);
+    text-transform: uppercase;
+}
+
+.botao_novidades{
+	position: absolute;
+    top: 74%;
+    width: 155px;
+    height: 15px;
+    background: transparent;
+    color: var(--branco);
+    border: 1px solid #FFFFFF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0;
+    text-decoration: none;
 }
 
 .banner_direita{

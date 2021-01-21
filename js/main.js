@@ -1,3 +1,4 @@
+/*
 $.getJSON("js/products.json", function(data){
 
 	var tamanho = produtos.products.length,
@@ -35,10 +36,36 @@ for (var i in data) { //vai passar por todos os objetos dentro do array
     }
 */
 
+/*
+var $item = $('.vitrine_produtos ul li'),
+	$dialog = $('.dialog');
 
-$('.link_vitrine').on('click', function(event){
-	event.preventDefault();
-	event.stopPropagation();
+$dialog.dialog({
+    autoOpen: false,
+    modal: true
+});
 
-	console.log(produtos)
+$item.on('click', function() {
+    var $id = $(this).data('id'),
+        $name = $(this).data('name'),
+        $description = $(this).data('description'),
+        $photo = $(this).data('photo'),
+        $price = $(this).data('price'),
+    
+    $dialog.html('Este é o ' + $name + '. Ele tem ' + $age + ' anos e é o ' + $id + 'º usuário registrado.');
+    $dialog.dialog('open');
+});
+*/
+
+import dadosCrus from './products.json';
+
+const dadosCrus = fs.readFileSync("products.json");
+const dadosEmJson = dadoscurs.json()
+const listProdutos = Array.from(dadosEmJson.produts)
+let listaHTML = ""
+listProdutos.forEach( (umProduto) => {
+      const { productName , descriptionShort , photo , price } = umProduto
+   const item = `<li> Name  :${productName} <br>Description : ${descriptionShort} <br>photo : ${photo} 
+<br>price : ${price} </li>`
+listaHtml += item
 });

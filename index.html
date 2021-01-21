@@ -52,6 +52,12 @@
       });
     });
   	</script>
+  	<!-- jQuery UI -->
+  	<script src="js/jquery_ui/jquery-ui.js"></script>
+  	<script src="js/jquery_ui/jquery-ui.min.js"></script>
+  	<!-- jQuery UI CSS -->
+  	<link rel="stylesheet" href="js/jquery_ui/jquery-ui.css" />
+  	<link rel="stylesheet" href="js/jquery_ui/jquery-ui.min.css" />
 	<!-- JavaScript -->
 	<script defer="true" src="js/main.js"></script>
 	<title>Samurai Music</title>
@@ -186,7 +192,7 @@
 		</div>
 				<div class="vitrine_produtos">
 					<ul>
-						<li id="li_bateria">
+						<li>
 							<button class="link_vitrine">
 								<img src="images/vitrine/bateria_vitrine.jpg" />
 								<p class="titulo_produtos">Bateria eletrônica</p>
@@ -195,55 +201,55 @@
 							</button>
 						</li>
 						<li>
-							<button onclick="clicar()" class="link_vitrine">
+							<button class="link_vitrine">
 								<img src="images/vitrine/pratos_vitrine.jpg" />
 								<p class="titulo_produtos">Kit de pratos</p>
 								<p class="descricao_produtos">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 								<p class="preco_produtos">R$1499,00</p>
 							</button>
 						</li>
-						<li>
-							<button onclick="clicar()" class="link_vitrine">
+						<li data-id="2" data-name="productName" data-description="descriptionShort" data-photo="photo" data-price="price">
+							<button class="link_vitrine">
 								<img src="images/vitrine/pedal_vitrine.jpg" />
 								<p class="titulo_produtos">Pedal duplo para Bumbo</p>
 								<p class="descricao_produtos">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 								<p class="preco_produtos">R$1499,00</p>
 							</button>
 						</li>
-						<li>
-							<button onclick="clicar()" class="link_vitrine">
+						<li data-id="3" data-name="productName" data-description="descriptionShort" data-photo="photo" data-price="price">
+							<button class="link_vitrine">
 								<img src="images/vitrine/modulo_vitrine.jpg" />
 								<p class="titulo_produtos">Módulo para Bateria</p>
 								<p class="descricao_produtos">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 								<p class="preco_produtos">R$1499,00</p>
 							</button>
 						</li>
-						<li>
-							<button onclick="clicar()" class="link_vitrine">
+						<li data-id="4" data-name="productName" data-description="descriptionShort" data-photo="photo" data-price="price">
+							<button class="link_vitrine">
 								<img src="images/vitrine/prato17_vitrine.jpg" />
 								<p class="titulo_produtos">Prato 17" Medium Crash</p>
 								<p class="descricao_produtos">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 								<p class="preco_produtos">R$1499,00</p>
 							</button>
 						</li>
-						<li>
-							<button onclick="clicar()" class="link_vitrine">
+						<li data-id="5" data-name="productName" data-description="descriptionShort" data-photo="photo" data-price="price">
+							<button class="link_vitrine">
 								<img src="images/vitrine/bag_vitrine.jpg" />
 								<p class="titulo_produtos">Kit Bag para Tambores</p>
 								<p class="descricao_produtos">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 								<p class="preco_produtos">R$1499,00</p>
 							</button>
 						</li>
-						<li>
-							<button onclick="clicar()" class="link_vitrine">
+						<li data-id="6" data-name="productName" data-description="descriptionShort" data-photo="photo" data-price="price">
+							<button class="link_vitrine">
 								<img src="images/vitrine/banco_vitrine.jpg" />
 								<p class="titulo_produtos">Banco para Bateria</p>
 								<p class="descricao_produtos">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 								<p class="preco_produtos">R$1499,00</p>
 							</button>
 						</li>
-						<li>
-							<button onclick="clicar()" class="link_vitrine">
+						<li data-id="7" data-name="productName" data-description="descriptionShort" data-photo="photo" data-price="price">
+							<button class="link_vitrine">
 								<img src="images/vitrine/pedal_percussao_vitrine.jpg" />
 								<p class="titulo_produtos">Pedal para Percussão</p>
 								<p class="descricao_produtos">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
@@ -252,6 +258,7 @@
 						</li>
 					</ul>
 				</div>
+				<div class="dialog"></div>
 			</div>
 		</header>
 	</div>
